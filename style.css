@@ -16,7 +16,7 @@ nav ul {
     display: flex;
     align-items: center;
     list-style-type: none;
-    height: 70px;
+    height: 50px;
     background-color: #000;
     color: #fff;
 }
@@ -33,6 +33,75 @@ nav ul li {
 }
 
 .logo img {
-    width: 45px;
+    width: 35px;
     padding: 0 8px;
+}
+
+.container {
+    font-family: 'Heebo', sans-serif;
+    min-height: 60.05vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("spotify-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.botton {
+    position: sticky;
+    bottom: 0px;
+    height: 120px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressBar {
+    width: 80vw;
+}
+
+.icons {
+    margin-top: 25px;
+}
+
+.icons i {
+    cursor: pointer
+}
+
+.songItemContainer {
+    margin-top: 35px;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /* width: 80%; */
+    color: #000;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img {
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestemp {
+    margin: 0 23px;
+}
+
+.timestemp i {
+    cursor: pointer;
 }
