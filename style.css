@@ -66,6 +66,7 @@ nav ul li {
 
 #myProgressBar {
     width: 80vw;
+    cursor: pointer;
 }
 
 .icons {
@@ -104,4 +105,15 @@ nav ul li {
 
 .timestemp i {
     cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Heebo', sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
 }
